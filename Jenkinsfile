@@ -20,7 +20,7 @@ pipeline {
 		stage (deployment) {
 			steps {
 
-				sh '''sudo cp *.html /var/www/html/ '''
+				sh '''cp *.html /var/www/html/ '''
 			}
 
 		}
